@@ -1,0 +1,12 @@
+name: BukkitJMX
+main: org.cat73.bukkitjmx.BukkitJMX
+author: Cat73
+website: https://github.com/Cat7373/BukkitJMX
+version: 0.0.1_dev
+commands:
+  bukkitjmx:
+    usage: /<command> help
+    aliases: [bj]
+permissions:
+  bukkitjmx.admin:
+    default: false

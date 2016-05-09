@@ -1,0 +1,15 @@
+# JMX 配置
+jmx:
+  # JMX 监听的 IP 地址
+  # * 则自动获取本机 IP 地址
+  ip: '127.0.0.1'
+  # JMX 监听的端口
+  port: 7373
+  # 是否在 MC 服务器启动后 / 重载配置后自动启动 JMX 服务器
+  auto-enable: false
+
+# JMX 的用户列表
+users:
+  # 账号 密码
+  - admin passwd123
+  - cat73 password
